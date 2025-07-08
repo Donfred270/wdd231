@@ -46,7 +46,7 @@
     grid-template-columns: 1fr 1fr;
   }
 }
-h2, p{
+h1, p{
   text-align: center;
 }
 }
