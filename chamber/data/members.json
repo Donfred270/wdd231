@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Citadelle Tech Solutions",
+    "address": "123 Rue de la Liberté, Cap-Haïtien, Haiti",
+    "phone": "+509 2222-1111",
+    "website": "https://citadelletech.ht",
+    "image": "citadelle-tech.png",
+    "membershipLevel": 3,
+    "description": "Leading provider of IT services and digital transformation in northern Haiti.",
+    "email": "info@citadelletech.ht"
+  },
+  {
+    "name": "Caribbean Eats",
+    "address": "45 Boulevard du Cap, Cap-Haïtien, Haiti",
+    "phone": "+509 3333-2222",
+    "website": "https://caribbeaneats.ht",
+    "image": "caribbean-eats.jpg",
+    "membershipLevel": 2,
+    "description": "Authentic Caribbean cuisine with a modern twist.",
+    "email": "contact@caribbeaneats.ht"
+  },
+  {
+    "name": "Nord Construction",
+    "address": "78 Avenue Christophe, Cap-Haïtien, Haiti",
+    "phone": "+509 4444-3333",
+    "website": "https://nordconstruction.ht",
+    "image": "nord-construction.svg",
+    "membershipLevel": 1,
+    "description": "Residential and commercial construction services.",
+    "email": "support@nordconstruction.ht"
+  },
+  {
+    "name": "Hibiscus Hotel",
+    "address": "12 Rue du Quai, Cap-Haïtien, Haiti",
+    "phone": "+509 5555-4444",
+    "website": "https://hibiscushotel.ht",
+    "image": "hibiscus-hotel.jpg",
+    "membershipLevel": 3,
+    "description": "Luxury hotel with ocean views and conference facilities.",
+    "email": "reservations@hibiscushotel.ht"
+  },
+  {
+    "name": "Cap Cleaners",
+    "address": "34 Rue 18, Cap-Haïtien, Haiti",
+    "phone": "+509 6666-5555",
+    "website": "https://capcleaners.ht",
+    "image": "cap-cleaners.png",
+    "membershipLevel": 1,
+    "description": "Professional cleaning and janitorial services.",
+    "email": "info@capcleaners.ht"
+  },
+  {
+    "name": "Tropix Market",
+    "address": "56 Rue du Commerce, Cap-Haïtien, Haiti",
+    "phone": "+509 7777-6666",
+    "website": "https://tropixmarket.ht",
+    "image": "tropix-market.jpg",
+    "membershipLevel": 2,
+    "description": "Fresh produce and imported goods for the community.",
+    "email": "hello@tropixmarket.ht"
+  },
+  {
+    "name": "Blue Bay Tours",
+    "address": "89 Route de Labadie, Cap-Haïtien, Haiti",
+    "phone": "+509 8888-7777",
+    "website": "https://bluebaytours.ht",
+    "image": "blue-bay-tours.jpg",
+    "membershipLevel": 2,
+    "description": "Tour operator offering excursions and travel packages.",
+    "email": "bookings@bluebaytours.ht"
+  }
+] 

@@ -6,7 +6,7 @@
     <title>Cap-Haïtien Chamber of Commerce</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.png"/>
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/directory.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -39,147 +39,165 @@
 
   <!-- Hero Section -->
   <section class="hero">
-    <img src="images/hero.gif" alt="Cap-Haïtien animated hero" class="hero__bg">
+    <img src="images/bisiness.jpg" alt="Directory Hero" class="hero__bg">
     <div class="hero__content">
-      <h1>Empowering Local Businesses, Connecting Our Community</h1>
-      <p>Welcome to the Cap-Haïtien Chamber of Commerce, where we unite local entrepreneurs and foster growth. Join us in promoting our vibrant community and thriving businesses.</p>
-      <div class="hero__buttons">
-        <button class="btn btn--primary">Join Now</button>
-        <button class="btn btn--outline--hero">View Directory</button>
+      <span class="hero__subtitle">Explore</span>
+      <h1>Business Directory</h1>
+      <p>Discover local businesses by filtering categories or searching for specific services you need.</p>
+      <div class="hero__search">
+        <input type="text" placeholder="Search...">
+        <button class="btn btn--primary">Filter</button>
       </div>
     </div>
   </section>
 
-  <!-- Welcome Section -->
-  <section class="welcome container">
-    <h2>Welcome to the Cap-Haïtien Chamber of Commerce: <br>Empowering Local Businesses</h2>
-    <p>The Cap-Haïtien Chamber of Commerce is dedicated to fostering a vibrant business community. Our mission is to support local entrepreneurs through networking, resources, and advocacy. Together, we can build a prosperous future for Cap-Haïtien.</p>
-    <div class="welcome__cards">
-      <div class="card">
-        <img src="images/community.jpg" alt="Community">
-        <h3>Join Our Community: Connect, Grow, and Succeed with Local Businesses</h3>
+  <!-- Intro Section -->
+  <section class="intro container">
+    <h2>Explore Our Vibrant Community of Local Businesses in Cap-Haïtien</h2>
+    <p>Discover the diverse range of member businesses in Cap-Haïtien. From restaurants to services, our directory connects you to local entrepreneurs. Support your community by choosing local first!</p>
+    <div class="features">
+      <div class="feature">
+        <span class="feature__icon">&#128196;</span>
+        <h4>Find the Best Local Businesses Tailored to Your Needs</h4>
+        <p>Browse our comprehensive directory to connect with local enterprises.</p>
+        <a href="#">View &rarr;</a>
       </div>
-      <div class="card">
-        <img src="images/networking.jpg" alt="Networking">
-        <h3>Discover Opportunities: Networking Events and Workshops Await You</h3>
+      <div class="feature">
+        <span class="feature__icon">&#128193;</span>
+        <h4>Categories to Help You Easily Navigate Our Business Directory</h4>
+        <p>Filter businesses by category to find exactly what you need.</p>
+        <a href="#">Filter &rarr;</a>
       </div>
-      <div class="card">
-        <img src="images/local-business.jpg" alt="Directory">
-        <h3>Explore Our Directory: Find Local Businesses and Services in Cap-Haïtien</h3>
+      <div class="feature">
+        <span class="feature__icon">&#128279;</span>
+        <h4>Connect with Local Entrepreneurs and Support Your Community</h4>
+        <p>Join us in fostering local growth and innovation through collaboration.</p>
+        <a href="#">Join &rarr;</a>
       </div>
     </div>
   </section>
 
-  <!-- Featured Businesses -->
-  <section class="featured">
-    <div class="container">
-      <div class="featured__header">
-        <span class="spotlight">Spotlight</span>
-        <h2>Explore Our Featured Local Businesses</h2>
-        <p>Discover the vibrant businesses that make Cap-Haïtien unique. From dining to services, our featured members are here to serve you.</p>
-      </div>
-      <div class="featured__items">
-        <div class="featured__item">
-          <img src="images/restaurants.jpg" alt="Restaurant">
-          <h4>Local Restaurants You Can't Miss</h4>
-          <p>Savor the flavors of Cap-Haïtien with our top dining spots.</p>
+  <!-- Business Community Section -->
+  <section class="community">
+    <div class="container community__container">
+      <div class="community__info">
+        <span class="community__subtitle">Explore</span>
+        <h3>Discover Our Diverse Business Community</h3>
+        <p>Our directory showcases a variety of local businesses. From restaurants to services, find what you need in Cap-Haïtien.</p>
+        <div class="community__categories">
+          <div>
+            <strong>Restaurants</strong>
+            <p>Savor the flavors of Cap-Haïtien with our local dining options.</p>
+          </div>
+          <div>
+            <strong>Services</strong>
+            <p>Find reliable services to meet your everyday needs.</p>
+          </div>
         </div>
-        <div class="featured__item">
-          <img src="images/services.jpg" alt="Services">
-          <h4>Essential Services for Every Need</h4>
-          <p>Find reliable services that cater to your requirements.</p>
-        </div>
-        <div class="featured__item">
-          <img src="images/hotels.jpg" alt="Hotel">
-          <h4>Stay at Our Recommended Hotels</h4>
-          <p>Experience comfort and hospitality at our featured hotels.</p>
+        <div class="community__actions">
+          <button class="btn btn--outline">View</button>
+          <a href="#">Details &rarr;</a>
         </div>
       </div>
-      <div class="featured__actions">
-        <button class="btn btn--outline">View</button>
+      <div class="community__image">
+        <div class="image-placeholder">
+          <span class="image-icon">&#128247;</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Directory Section -->
+  <section class="directory container">
+    <h2>Explore Our Diverse Directory of Local Businesses and Services</h2>
+    <div class="directory__toggle">
+      <button id="grid" class="btn btn--outline active">Grid</button>
+      <button id="list" class="btn btn--outline">List</button>
+    </div>
+    <article class="directory__grid">
+      <div class="directory__card">
+        <div class="directory__logo">Logo</div>
+        <div class="directory__info">
+          <strong>Blue Bay Tours</strong>
+          <p>89 Route de Labadie, Cap-Haïtien</p>
+          <p>+509 8888-7777</p>
+          <a href="https://bluebaytours.ht" target="_blank">bluebaytours.ht</a>
+        </div>
+      </div>
+      <div class="directory__card">
+        <div class="directory__logo">Logo</div>
+        <div class="directory__info">
+          <strong>Caribbean Eats</strong>
+          <p>45 Boulevard du Cap, Cap-Haïtien</p>
+          <p>+509 3333-2222</p>
+          <a href="https://caribbeaneats.ht" target="_blank">caribbeaneats.ht</a>
+        </div>
+      </div>
+      <div class="directory__card">
+        <div class="directory__logo">Logo</div>
+        <div class="directory__info">
+          <strong>Citadelle Tech Solutions</strong>
+          <p>123 Rue de la Liberté, Cap-Haïtien</p>
+          <p>+509 2222-1111</p>
+          <a href="https://citadelletech.ht" target="_blank">https://citadelletech.ht</a>
+        </div>
+      </div>
+      <div class="directory__card">
+        <div class="directory__logo">Logo</div>
+        <div class="directory__info">
+          <strong>Nord Construction</strong>
+          <p>78 Avenue Christophe, Cap-Haïtien</p>
+          <p>+509 4444-3333</p>
+          <a href="https://nordconstruction.ht" target="_blank">nordconstruction.ht</a>
+        </div>
+      </div>
+      <div class="directory__card">
+        <div class="directory__logo">Logo</div>
+        <div class="directory__info">
+          <strong>Hibiscus Hotel</strong>
+          <p>12 Rue du Quai, Cap-Haïtien</p>
+          <p>+509 2222-1111</p>
+          <a href="https://hibiscushotel.ht" target="_blank">hibiscushotel.ht</a>
+        </div>
+      </div>
+      <div class="directory__card">
+        <div class="directory__logo">Logo</div>
+        <div class="directory__info">
+          <strong>Cap Cleaners</strong>
+          <p>34 Rue 18, Cap-Haïtien</p>
+          <p>+509 6666-5555</p>
+          <a href="https://capcleaners.ht" target="_blank">capcleaners.ht</a>
+        </div>
+      </div>
+      <div class="directory__card">
+        <div class="directory__logo">Logo</div>
+        <div class="directory__info">
+          <strong>Tropix Market</strong>
+          <p>56 Rue du Commerce, Cap-Haïtien</p>
+          <p>+509 7777-6666</p>
+          <a href="https://tropixmarket.ht" target="_blank">tropixmarket.ht</a>
+        </div>
+      </div>
+    </article>
+    <div class="directory__viewmore">
+      <button class="btn btn--outline">View</button>
+    </div>
+  </section>
+
+  <!-- Join CTA Section -->
+  <section class="cta">
+    <div class="cta__content">
+      <h2>Join Our Business Directory Today</h2>
+      <p>Become a member and gain visibility in our thriving local business community.</p>
+      <div class="cta__actions">
         <button class="btn btn--primary">Join</button>
+        <button class="btn btn--outline">Learn More</button>
       </div>
     </div>
   </section>
 
-  <!-- Weather Section -->
-  <section class="weather">
-    <div class="container weather__container">
-      <div class="weather__info">
-        <h3>Stay Updated with the Latest Weather in Cap-Haïtien</h3>
-        <p>Cap-Haïtien boasts a tropical climate, perfect for enjoying its beautiful beaches. Check the current weather conditions to plan your day.</p>
-        <div class="weather__details">
-          <div>
-            <strong>Current Weather</strong>
-            <p>Experience the vibrant climate of Cap-Haïtien throughout the year.</p>
-          </div>
-          <div>
-            <strong>Forecast Ahead</strong>
-            <p>Stay prepared with our daily and weekly weather updates.</p>
-          </div>
-        </div>
-      </div>
-      <div class="weather__image">
-        <img src="beach.jpg" alt="Cap-Haïtien Beach">
-      </div>
-    </div>
-  </section>
-
-  <!-- Events Section -->
-  <section class="events container">
-    <h2>Events</h2>
-    <div class="events__filters">
-      <button class="btn btn--outline">View all</button>
-      <button class="btn btn--outline">Category one</button>
-      <button class="btn btn--outline">Category two</button>
-      <button class="btn btn--outline">Category three</button>
-      <button class="btn btn--outline">Category four</button>
-    </div>
-    <div class="events__list">
-      <div class="event event--blue">
-        <div class="event__date">
-          <span>Fri</span>
-          <span>09</span>
-          <span>Feb 2024</span>
-        </div>
-        <div class="event__details">
-          <h4>Event title heading <span class="sold-out">Sold out</span></h4>
-          <p>Location</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
-        </div>
-        <button class="btn btn--outline">Save my spot</button>
-      </div>
-      <div class="event event--yellow">
-        <div class="event__date">
-          <span>Sat</span>
-          <span>10</span>
-          <span>Feb 2024</span>
-        </div>
-        <div class="event__details">
-          <h4>Event title heading</h4>
-          <p>Location</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
-        </div>
-        <button class="btn btn--outline">Save my spot</button>
-      </div>
-      <div class="event event--pink">
-        <div class="event__date">
-          <span>Sun</span>
-          <span>11</span>
-          <span>Feb 2024</span>
-        </div>
-        <div class="event__details">
-          <h4>Event title heading</h4>
-          <p>Location</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
-        </div>
-        <button class="btn btn--outline">Save my spot</button>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer">
+   <!-- Footer -->
+   <footer class="footer">
     <div class="container footer__container">
       <div class="footer__newsletter">
         <img class="footer__logo" src="images/logo white.png" alt="Cap-Haïtien Chamber of Commerce Logo" width="500px">
@@ -224,6 +242,6 @@
       <p>Last modified: <span id="last-modified"></span></p>
     </div>
   </footer>
-  <script src="scripts/script.js"></script>
+  <script src="scripts/directory.js"></script>
 </body>
-</html>
+</html> 
