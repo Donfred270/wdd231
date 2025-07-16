@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cap-Haïtien Chamber of Commerce</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png"/>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__container">
+      <div class="header__logo">
+        <img src="images/logo-svg.svg" alt="Northcap Logo" >
+      </div>
+      <nav class="header__nav">
+        <a href="#">Home Page</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+        <div class="dropdown">
+          <button class="dropbtn">More Links ▼</button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+          </div>
+        </div>
+      </nav>
+      <div class="header__actions">
+        <button class="btn btn--outline">Join</button>
+        <button class="btn btn--primary">Learn</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="images/hero.gif" alt="Cap-Haïtien animated hero" class="hero__bg">
+    <div class="hero__content">
+      <h1>Empowering Local Businesses, Connecting Our Community</h1>
+      <p>Welcome to the Cap-Haïtien Chamber of Commerce, where we unite local entrepreneurs and foster growth. Join us in promoting our vibrant community and thriving businesses.</p>
+      <div class="hero__buttons">
+        <button class="btn btn--primary">Join Now</button>
+        <button class="btn btn--outline--hero">View Directory</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Welcome Section -->
+  <section class="welcome container">
+    <h2>Welcome to the Cap-Haïtien Chamber of Commerce: <br>Empowering Local Businesses</h2>
+    <p>The Cap-Haïtien Chamber of Commerce is dedicated to fostering a vibrant business community. Our mission is to support local entrepreneurs through networking, resources, and advocacy. Together, we can build a prosperous future for Cap-Haïtien.</p>
+    <div class="welcome__cards">
+      <div class="card">
+        <img src="images/community.jpg" alt="Community">
+        <h3>Join Our Community: Connect, Grow, and Succeed with Local Businesses</h3>
+      </div>
+      <div class="card">
+        <img src="images/networking.jpg" alt="Networking">
+        <h3>Discover Opportunities: Networking Events and Workshops Await You</h3>
+      </div>
+      <div class="card">
+        <img src="images/local-business.jpg" alt="Directory">
+        <h3>Explore Our Directory: Find Local Businesses and Services in Cap-Haïtien</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Businesses -->
+  <section class="featured">
+    <div class="container">
+      <div class="featured__header">
+        <span class="spotlight">Spotlight</span>
+        <h2>Explore Our Featured Local Businesses</h2>
+        <p>Discover the vibrant businesses that make Cap-Haïtien unique. From dining to services, our featured members are here to serve you.</p>
+      </div>
+      <div class="featured__items">
+        <div class="featured__item">
+          <img src="images/restaurants.jpg" alt="Restaurant">
+          <h4>Local Restaurants You Can't Miss</h4>
+          <p>Savor the flavors of Cap-Haïtien with our top dining spots.</p>
+        </div>
+        <div class="featured__item">
+          <img src="images/services.jpg" alt="Services">
+          <h4>Essential Services for Every Need</h4>
+          <p>Find reliable services that cater to your requirements.</p>
+        </div>
+        <div class="featured__item">
+          <img src="images/hotels.jpg" alt="Hotel">
+          <h4>Stay at Our Recommended Hotels</h4>
+          <p>Experience comfort and hospitality at our featured hotels.</p>
+        </div>
+      </div>
+      <div class="featured__actions">
+        <button class="btn btn--outline">View</button>
+        <button class="btn btn--primary">Join</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Weather Section -->
+  <section class="weather">
+    <div class="container weather__container">
+      <div class="weather__info">
+        <h3>Stay Updated with the Latest Weather in Cap-Haïtien</h3>
+        <p>Cap-Haïtien boasts a tropical climate, perfect for enjoying its beautiful beaches. Check the current weather conditions to plan your day.</p>
+        <div class="weather__details">
+          <div>
+            <strong>Current Weather</strong>
+            <p>Experience the vibrant climate of Cap-Haïtien throughout the year.</p>
+          </div>
+          <div>
+            <strong>Forecast Ahead</strong>
+            <p>Stay prepared with our daily and weekly weather updates.</p>
+          </div>
+        </div>
+      </div>
+      <div class="weather__image">
+        <img src="beach.jpg" alt="Cap-Haïtien Beach">
+      </div>
+    </div>
+  </section>
+
+  <!-- Events Section -->
+  <section class="events container">
+    <h2>Events</h2>
+    <div class="events__filters">
+      <button class="btn btn--outline">View all</button>
+      <button class="btn btn--outline">Category one</button>
+      <button class="btn btn--outline">Category two</button>
+      <button class="btn btn--outline">Category three</button>
+      <button class="btn btn--outline">Category four</button>
+    </div>
+    <div class="events__list">
+      <div class="event event--blue">
+        <div class="event__date">
+          <span>Fri</span>
+          <span>09</span>
+          <span>Feb 2024</span>
+        </div>
+        <div class="event__details">
+          <h4>Event title heading <span class="sold-out">Sold out</span></h4>
+          <p>Location</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+        </div>
+        <button class="btn btn--outline">Save my spot</button>
+      </div>
+      <div class="event event--yellow">
+        <div class="event__date">
+          <span>Sat</span>
+          <span>10</span>
+          <span>Feb 2024</span>
+        </div>
+        <div class="event__details">
+          <h4>Event title heading</h4>
+          <p>Location</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+        </div>
+        <button class="btn btn--outline">Save my spot</button>
+      </div>
+      <div class="event event--pink">
+        <div class="event__date">
+          <span>Sun</span>
+          <span>11</span>
+          <span>Feb 2024</span>
+        </div>
+        <div class="event__details">
+          <h4>Event title heading</h4>
+          <p>Location</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+        </div>
+        <button class="btn btn--outline">Save my spot</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__newsletter">
+        <img class="footer__logo" src="images/logo white.png" alt="Cap-Haïtien Chamber of Commerce Logo" width="500px">
+        <p>Subscribe to our newsletter for the latest updates on features and events.</p>
+        <form class="footer__form">
+          <input type="email" placeholder="Your Email Here" required>
+          <button class="btn btn--primary" type="submit">Join</button>
+        </form>
+        <small>By subscribing, you consent to our Privacy Policy and cookies notice.</small>
+      </div>
+      <div class="footer__links">
+        <div>
+          <h5>Resources</h5>
+          <a href="#">Business Directory</a>
+          <a href="#">Upcoming Events</a>
+          <a href="#">News</a>
+          <a href="#">About Us</a>
+          <a href="#">Membership Info</a>
+        </div>
+        <div>
+          <h5>Connect With Us</h5>
+          <a href="#">Blog Posts</a>
+          <a href="#">News Updates</a>
+          <a href="#">Partnerships</a>
+          <a href="#">Volunteer Opportunities</a>
+        </div>
+        <div>
+          <h5>Stay Connected</h5>
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">YouTube</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">  
+      <small>© <span id="currentyear"></span> Cap-Haïtien Chamber of Commerce. All rights reserved.</small>
+      <a href="#">Privacy Policy</a>
+      <a href="https://www.instagram.com/donfred.co/">Proudly made by <span class="donfred">Donfred.co | WDD231</span></a>
+      <a href="#">Terms of Service</a>
+      <a href="#">Cookie Settings</a>
+      <p>Last modified: <span id="last-modified"></span></p>
+    </div>
+  </footer>
+  <script src="scripts/script.js"></script>
+</body>
+</html>
